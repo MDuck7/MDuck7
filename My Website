@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSL Technology</title>
+    <link rel="icon" href="D:/Web/pitcure/logo.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <div class="header">
+        <h1>TSL Technology</h1>
+        
+    </div>
+    
+    <div class="countdown-container">
+        <h1>距离2027年10月1日还有</h1>
+        <div class="countdown">
+            <div class="time-block">
+                <span id="days">0</span>
+                <label>天</label>
+            </div>
+            <div class="time-block">
+                <span id="hours">0</span>
+                <label>小时</label>
+            </div>
+            <div class="time-block">
+                <span id="minutes">0</span>
+                <label>分钟</label>
+            </div>
+            <div class="time-block">
+                <span id="seconds">0</span>
+                <label>秒</label>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
